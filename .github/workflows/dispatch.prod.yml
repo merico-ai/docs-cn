@@ -25,7 +25,7 @@ jobs:
         uses: peter-evans/repository-dispatch@v1
         with:
           token: ${{ secrets.DISPATCH_TOKEN }}
-          repository: merico-dev/website-docs
+          repository: merico-ai/website-docs
           event-type: ${{ github.repository }}/${{ github.ref_name }}-${{ steps.extract.outputs.sha }}
           client-payload: '{ "repo": "${{ github.repository }}", "ref": "${{ github.ref_name }}", "sha": "${{ github.sha }}", "env": "prod" }'
 

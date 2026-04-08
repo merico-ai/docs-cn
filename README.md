@@ -10,7 +10,7 @@ aliases: []
 ## 脚手架说明
 
 1. 本仓库结构和功能借鉴自 [TiDB 文档仓库](https://github.com/pingcap/docs-cn)
-2. 本仓库内容通过 [Merico 文档站仓库](https://github.com/merico-dev/website-docs) 展示，该仓库改造于 [Pingcap 的 website-docs](https://github.com/pingcap/website-docs)
+2. 本仓库内容通过 [Merico 文档站仓库](https://github.com/merico-ai/website-docs) 展示，该仓库改造于 [Pingcap 的 website-docs](https://github.com/pingcap/website-docs)
 
 ## 生成 PDF
 
